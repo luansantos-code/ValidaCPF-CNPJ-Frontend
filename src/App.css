@@ -11,15 +11,19 @@ body {
 
 #root {
   width: 100%;
-  max-width: 600px;
-  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   padding: 20px;
-  text-align: center;
   box-sizing: border-box;
 }
 
 h1 {
-  font-size: 2.5rem;
-  margin-bottom: 2rem;
+  width: 100%;
+  font-size: 2.32rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
   color: #ffffff;
 }
