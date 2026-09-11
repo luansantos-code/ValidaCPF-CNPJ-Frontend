@@ -1,0 +1,49 @@
+.header{
+    background-color: #21232c;
+    color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 20px 32px;
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+  flex: 1;
+  text-align: center;
+}
+
+.spacer{
+    flex: 1;
+}
+
+.h1{
+    flex: 1;
+    color: #ffffff;
+    font-size: 1.25rem;
+    margin: 0;
+    text-align: center;
+    align-items: center;
+}
+
+.home{
+    color: #ffffff;
+    margin-right: 80px;
+    text-decoration: none;
+}
+
+.home:hover{
+    color: #c3bbbb;
+}
+
+.contato{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.contato:hover{
+    color: #c3bbbb;
+}
