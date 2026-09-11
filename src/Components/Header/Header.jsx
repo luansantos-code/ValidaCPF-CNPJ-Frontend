@@ -4,9 +4,7 @@ import styles from './Header.module.css'
 function Header() {
     return(
         <header className={styles.header}>
-            <Link to="/">
-                <h1 href="/" className={styles.h1}>Info Validate - CPF/CNPJ</h1>
-            </Link>
+            <h1 className={styles.h1}>Info Validate - CPF/CNPJ</h1>
 
             <nav className={styles.nav}>
                 <a href="/" className={styles.home}>Home</a>
